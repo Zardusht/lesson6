@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    
+}
+
+header {
+    width: 1200px;
+    height: 80px;
+    margin: 20px auto;
+}
+.logo {
+    width: 430px;
+    height: 80px;
+    float: left;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: blue;
+    float: left;
+}
+.logo h2 {
+    width: 340px;
+    height: 70px;
+    /* text-align: center; */
+    line-height: 80px;
+    font-size: 27px;
+    color: blue;
+    float: left;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.nav-bar {
+    width: 520px;
+    height: 80px;
+    float: left;
+    line-height: 80px;
+    padding-left: 250px;
+}
+.nav-bar ul {
+    float: left;
+    width: 390px;
+    height: 80px;
+    margin-right: 10px;
+    
+}
+.nav-bar ul li {
+    width: 110px;
+    height: 60px;
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    line-height: 60px;
+}
+.nav-bar ul li:hover {
+    background-color: #3489eb;
+}
+.nav-bar ul li:hover a {
+    color: white;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #3489eb;
+    text-transform: uppercase;
+    border-right: 1px #3489eb solid;
+    padding-right: 10px;
+}
+.nav-bar button {
+    width: 120px;
+    height: 60px;
+    background-color: #3489eb;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    /* border-radius: 10px; */
+}
+.jumbotron {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.jumbotron-top {
+    width: 100%;
+    height: 300px;
+    background-image: url(image/pic-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px; 
+    margin: 20px 0;  
+}
+.jumbotron-top-content {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    padding-right: 700px;
+}
+.jumbotron-top-content h1 {
+    color: white;
+}
+.jumbotron-top-content h5 {
+    color: white;
+}
+.jumbotron-top-content button {
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    /* border-radius: 10px; */
+    border: none;
+    background-color: #3489eb;
+    color: white;
+    font-size: 18px;
+}
+/* .button {
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #3489eb;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+} */
+.jumbotron-middle {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin: 20px 0;
+}
+.jumbotron-middle-content {
+    width: 800px;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+}
+.jumbotron-middle-content p {
+    color: #328fa8;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    word-spacing: 4px;
+}
+.jumbotron-middle-content button {
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 60px;
+    border: none;
+    background-color: #3489eb;
+    color: white;
+    font-size: 18px;
+    /* border-radius: 10px; */
+}
+.jumbotron-bottom {
+    width: 100%;
+    height: 450px;
+    margin: 20px 0;
+}
+.jumbotron-bottom-image {
+    width: 55%;
+    height: 100%;
+    float: left;
+    background-image: url(image/pic-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.jumbotron-bottom-content {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(245, 236, 236);
+    float: left;
+}
+.jumbotron-buttom-content-area{
+    width: 300px;
+    height: 350px;
+    margin: 80px 0 0 30px;
+    padding: 10px;
+}
+.jumbotron-buttom-content-area h1 {
+    color: #4898f3;
+    font-size: 34px;
+    margin: 20px 0;
+}
+.jumbotron-buttom-content-area p {
+    color: black;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.jumbotron-buttom-content-area button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #3489eb;
+    color: white;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.product-area {
+    width: 100%;
+    margin: 20px 0;
+}
+.product-area .product {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto; 
+}
+.product-area .product .pages {
+    width: 274px;
+    height: 220px;
+    margin: 20px;
+    border: 1px gray solid;
+    float: left;
+    padding: 40px;
+}
+.product-area .product .pages h1 {
+    color: #3489eb;
+    margin-top: 15px;
+}
+.product-area .product .pages p {
+    color:#424E59;
+    margin-top: 20px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    margin: 10px 0;
+}
+footer .footer-top {
+    width: 100%;
+    height: 60px;
+    background-color: #3489eb;
+    text-align: center;
+    /* line-height: 20px; */
+    padding: 20px 0;
+    color: white; 
+}
+footer .footer-bottom {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+footer .footer-bottom .footer-bottom-area {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+footer .footer-bottom .footer-bottom-area .copyright {
+    width: 400px;
+    height: 50px;
+    padding: 25px 0;
+    color: white;
+    font-size: 20px;
+    float: left;;
+}
+footer .footer-bottom .footer-bottom-area .social-media {
+    width: 500px;
+    height: 100px;
+    float: right;
+}
+footer .footer-bottom .footer-bottom-area .social-media .social-media-icons {
+    width: 100px;
+    height: 100px;
+    background-color: dimgray;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    color: white;
+}
+
+
+
